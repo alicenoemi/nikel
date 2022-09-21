@@ -165,3 +165,5 @@ function getTotal() {
 function saveData(data) {           //salvar dados da transaction no storage
     localStorage.setItem(data.login, JSON.stringify(data));
 }
+
+//done
